@@ -2,6 +2,6 @@ package variant
 
 import "fmt"
 
-func Version(){
-fmt.Println("v1.0.1")
+func Version() string{
+return "v2.0.1"
 }
